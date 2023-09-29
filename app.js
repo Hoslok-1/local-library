@@ -11,7 +11,7 @@ var app = express();
 
 const mongoose = require('mongoose');
 mongoose.set('strictQuery',false);
-const mongoDB = "mongodb+srv://locallibrary:locallibrary01@cluster0.rgyt462.mongodb.net/local_library?retryWrites=true&w=majority"
+const mongoDB = "mongodb+srv://myAtlasDBUser:locallibrary01@cluster0.rgyt462.mongodb.net/local_library?retryWrites=true&w=majority"
 
 
 main().catch((err) => console.log(err));
